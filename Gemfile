@@ -30,6 +30,9 @@ gem 'jquery-rails'
 # gem for ENV variables
 gem 'figaro'
 
+# to use secure user sign in
+gem 'devise'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
