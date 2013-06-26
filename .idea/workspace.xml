@@ -12,7 +12,7 @@
     <file path="/index.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372271516326" ignored="false" />
     <file path="/devise.en.yml" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372275481863" ignored="false" />
     <file path="/new.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372280271674" ignored="false" />
-    <file path="/application.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372276699054" ignored="false" />
+    <file path="/application.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372280516688" ignored="false" />
     <file path="$PROJECT_DIR$/db/schema.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372276833501" ignored="false" />
     <file path="/devise.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372279299773" ignored="false" />
     <file path="/user.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372279391220" ignored="false" />
@@ -59,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="28" selection-start="315" selection-end="315" vertical-scroll-proportion="0.4383117">
+            <state line="9" column="28" selection-start="315" selection-end="315" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
           </provider>
@@ -77,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="25" selection-start="595" selection-end="595" vertical-scroll-proportion="-9.833333">
+            <state line="14" column="50" selection-start="351" selection-end="351" vertical-scroll-proportion="0.52272725">
               <folding />
             </state>
           </provider>
@@ -143,11 +143,11 @@
         <option value="$PROJECT_DIR$/config/locales/devise.en.yml" />
         <option value="$PROJECT_DIR$/config/locales/devise.hu.yml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -964,13 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="25" selection-start="595" selection-end="595" vertical-scroll-proportion="-9.833333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="62" selection-start="502" selection-end="502" vertical-scroll-proportion="-10.625">
@@ -994,7 +987,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="315" selection-end="315" vertical-scroll-proportion="0.4383117">
+        <state line="9" column="28" selection-start="315" selection-end="315" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="50" selection-start="351" selection-end="351" vertical-scroll-proportion="0.52272725">
           <folding />
         </state>
       </provider>
