@@ -1,5 +1,5 @@
-class ApplicationController < ActionController::Base
-  protect_from_forgery
+class HomeController < ApplicationController
   http_basic_authenticate_with name: ENV["SITE_USERNAME"], password: ENV["SITE_PASSWORD"]
-
+  def index
+  end
 end
