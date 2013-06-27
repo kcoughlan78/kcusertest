@@ -12,7 +12,7 @@
     <file path="/index.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372271516326" ignored="false" />
     <file path="/devise.en.yml" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372275481863" ignored="false" />
     <file path="/new.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372280271674" ignored="false" />
-    <file path="/application.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372291668903" ignored="false" />
+    <file path="/application.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372326620250" ignored="false" />
     <file path="$PROJECT_DIR$/db/schema.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372318865593" ignored="false" />
     <file path="/devise.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372291057773" ignored="false" />
     <file path="/user.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372323574004" ignored="false" />
@@ -81,19 +81,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="78" selection-start="512" selection-end="512" vertical-scroll-proportion="-8.458333">
+            <state line="33" column="8" selection-start="1336" selection-end="1336" vertical-scroll-proportion="0.63728815">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="16" selection-start="627" selection-end="627" vertical-scroll-proportion="0.32228917">
+            <state line="30" column="16" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -146,12 +146,12 @@
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
         <option value="$PROJECT_DIR$/config/application.yml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/omniauth_callbacks_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -1024,13 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="78" selection-start="512" selection-end="512" vertical-scroll-proportion="-8.458333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="85" selection-start="710" selection-end="711" vertical-scroll-proportion="0.0">
@@ -1075,7 +1068,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="16" selection-start="627" selection-end="627" vertical-scroll-proportion="0.32228917">
+        <state line="30" column="16" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="8" selection-start="1336" selection-end="1336" vertical-scroll-proportion="0.63728815">
           <folding />
         </state>
       </provider>
