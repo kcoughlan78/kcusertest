@@ -33,6 +33,10 @@ gem 'figaro'
 # to use secure user sign in
 gem 'devise'
 
+# to sign in with linkedin
+gem 'omniauth'
+gem 'omniauth-linkedin'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
