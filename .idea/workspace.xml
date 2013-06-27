@@ -11,7 +11,7 @@
     <file path="/routes.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372276419667" ignored="false" />
     <file path="/index.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372271516326" ignored="false" />
     <file path="/devise.en.yml" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372275481863" ignored="false" />
-    <file path="/new.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372335305945" ignored="false" />
+    <file path="/new.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372336114538" ignored="false" />
     <file path="/application.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372328410928" ignored="false" />
     <file path="$PROJECT_DIR$/db/schema.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372318865593" ignored="false" />
     <file path="/devise.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372291057773" ignored="false" />
@@ -63,7 +63,7 @@
       <file leaf-file-name="new.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="93" selection-start="112" selection-end="112" vertical-scroll-proportion="0.10169491">
+            <state line="14" column="22" selection-start="441" selection-end="441" vertical-scroll-proportion="0.69491524">
               <folding />
             </state>
           </provider>
@@ -1072,7 +1072,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="93" selection-start="112" selection-end="112" vertical-scroll-proportion="0.10169491">
+        <state line="14" column="22" selection-start="441" selection-end="441" vertical-scroll-proportion="0.69491524">
           <folding />
         </state>
       </provider>
