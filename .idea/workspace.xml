@@ -64,7 +64,9 @@
         <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="28" selection-start="315" selection-end="315" vertical-scroll-proportion="-5.625">
-              <folding />
+              <folding>
+                <marker date="1372280288000" expanded="true" signature="106:560" placeholder="do ... end" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,7 +74,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="72" selection-start="399" selection-end="399" vertical-scroll-proportion="0.5084746">
+            <state line="33" column="19" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.033898305">
               <folding />
             </state>
           </provider>
@@ -1010,7 +1012,9 @@
     <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="28" selection-start="315" selection-end="315" vertical-scroll-proportion="-5.625">
-          <folding />
+          <folding>
+            <marker date="1372280288000" expanded="true" signature="106:560" placeholder="do ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1072,7 +1076,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="72" selection-start="399" selection-end="399" vertical-scroll-proportion="0.5084746">
+        <state line="33" column="19" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.033898305">
           <folding />
         </state>
       </provider>

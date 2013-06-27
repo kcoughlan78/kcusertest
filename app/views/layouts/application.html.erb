@@ -32,8 +32,6 @@
     <li><%= link_to "Login", new_user_session_path %></li>
     <li><%= link_to "Sign in with Linkedin", user_omniauth_authorize_path(:linkedin) %></li>
           <% end %>
-    <li><%= notice %></li>
-    <li><%= alert %></li>
               </ul>
             </div>
           </div>
@@ -42,6 +40,12 @@
 
 
 <div class="container">
+  <% flash.each do |name, msg| %>
+      <div class="alert alert-<%= name == :notice ? "success" : "error" %>">
+        <a class="close" data-dismiss="alert">×</a>
+        <%= msg %>
+      </div>
+  <% end %>
   <div class="row">
     <div class="span9"><%= yield %></div>
     <div class="span3">
