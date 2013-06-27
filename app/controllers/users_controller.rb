@@ -4,6 +4,6 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.find(params[:username])
+    @user = !params[:username].nil? ? User.find(params[:username]) : current_user
   end
 end
