@@ -9,29 +9,42 @@
 <body>
 <p class="notice"><%= notice %></p>
 <p class="alert"><%= alert %></p>
-
-
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="#">Some Store</a>
+      <div class="nav-collapse">
+        <ul class="nav">
+    <li><%= link_to 'Home', root_url %></li>
 <% if user_signed_in? %>
-    Logged in as <strong><%= current_user.username %></strong>.
-    <%= link_to 'Edit profile', edit_user_registration_path %> |
-    <%= link_to "Logout", destroy_user_session_path, method: :delete %>
+    <li>Logged in as <strong><%= current_user.username %></strong></li>
+    <li><%= link_to 'Edit profile', edit_user_registration_path %></li>
+    <li><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>
 <% else %>
-    <%= link_to "Register", new_user_registration_path %> |
-    <%= link_to "Login", new_user_session_path %> |
-    <%= link_to "Sign in with Linkedin", user_omniauth_authorize_path(:linkedin) %>
-
-
-<% end %>
+    <li><%= link_to "Register", new_user_registration_path %></li>
+    <li><%= link_to "Login", new_user_session_path %></li>
+    <li><%= link_to "Sign in with Linkedin", user_omniauth_authorize_path(:linkedin) %></li>
+          <% end %>
+              </ul>
+            </div>
+          </div>
+        </div>
+     </div>
 
 
 <div class="container">
   <div class="row">
+    <div class="span9"><%= yield %></div>
     <div class="span3">
       <h2>About the App</h2>
       <p>This app is testing how well devise and omniauth work when using linkedin as a sign method as well as a bespoke sign in.</p>
       <p>Mailer at this point have yet to be set up however remember me function works so forgotten password should work once mailers
         are set up.</p>
-    <div class="span9"><%= yield %></div>
     </div>
   </div>
 </div>
