@@ -63,7 +63,7 @@
       <file leaf-file-name="new.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="79" selection-start="252" selection-end="252" vertical-scroll-proportion="0.29220778">
+            <state line="2" column="93" selection-start="112" selection-end="112" vertical-scroll-proportion="0.10169491">
               <folding />
             </state>
           </provider>
@@ -1072,7 +1072,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="79" selection-start="252" selection-end="252" vertical-scroll-proportion="0.29220778">
+        <state line="2" column="93" selection-start="112" selection-end="112" vertical-scroll-proportion="0.10169491">
           <folding />
         </state>
       </provider>
