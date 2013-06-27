@@ -56,7 +56,7 @@
       <file leaf-file-name="devise.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="222" column="78" selection-start="11173" selection-end="11173" vertical-scroll-proportion="0.37617555">
+            <state line="222" column="62" selection-start="11157" selection-end="11157" vertical-scroll-proportion="0.42319748">
               <folding />
             </state>
           </provider>
@@ -74,7 +74,7 @@
       <file leaf-file-name="application.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="19" selection-start="388" selection-end="407" vertical-scroll-proportion="0.0">
+            <state line="14" column="37" selection-start="409" selection-end="425" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -993,14 +993,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="388" selection-end="407" vertical-scroll-proportion="0.0">
+        <state line="14" column="37" selection-start="409" selection-end="425" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="222" column="78" selection-start="11173" selection-end="11173" vertical-scroll-proportion="0.37617555">
+        <state line="222" column="62" selection-start="11157" selection-end="11157" vertical-scroll-proportion="0.42319748">
           <folding />
         </state>
       </provider>
