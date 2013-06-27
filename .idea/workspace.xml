@@ -4,14 +4,14 @@
     <list default="true" id="ec411f8f-9773-42e6-af50-2905b5904a95" name="Default" comment="" />
     <ignored path="usertest.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Gemfile" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372290495720" ignored="false" />
+    <file path="/Gemfile" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372335127698" ignored="false" />
     <file path="/Dummy.txt" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372270040901" ignored="false" />
     <file path="/application_controller.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372270765820" ignored="false" />
     <file path="/application.yml" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372291017172" ignored="false" />
     <file path="/routes.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372276419667" ignored="false" />
     <file path="/index.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372271516326" ignored="false" />
     <file path="/devise.en.yml" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372275481863" ignored="false" />
-    <file path="/new.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372280271674" ignored="false" />
+    <file path="/new.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372335305945" ignored="false" />
     <file path="/application.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372328410928" ignored="false" />
     <file path="$PROJECT_DIR$/db/schema.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372318865593" ignored="false" />
     <file path="/devise.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372291057773" ignored="false" />
@@ -60,21 +60,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="new.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="28" selection-start="315" selection-end="315" vertical-scroll-proportion="-5.625">
-              <folding>
-                <marker date="1372280288000" expanded="true" signature="106:560" placeholder="do ... end" />
-              </folding>
+            <state line="6" column="79" selection-start="252" selection-end="252" vertical-scroll-proportion="0.29220778">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="4" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.69491524">
+            <state line="30" column="4" selection-start="1121" selection-end="1121" vertical-scroll-proportion="-1.0416666">
               <folding />
             </state>
           </provider>
@@ -92,7 +90,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="16" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
+            <state line="59" column="12" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -142,15 +140,15 @@
         <option value="$PROJECT_DIR$/config/locales/devise.en.yml" />
         <option value="$PROJECT_DIR$/config/locales/devise.hu.yml" />
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
         <option value="$PROJECT_DIR$/config/application.yml" />
         <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/omniauth_callbacks_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
       </list>
     </option>
   </component>
@@ -1009,15 +1007,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="315" selection-end="315" vertical-scroll-proportion="-5.625">
-          <folding>
-            <marker date="1372280288000" expanded="true" signature="106:560" placeholder="do ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="85" selection-start="710" selection-end="711" vertical-scroll-proportion="0.0">
@@ -1060,13 +1049,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="16" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="22" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
@@ -1076,7 +1058,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="4" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.69491524">
+        <state line="30" column="4" selection-start="1121" selection-end="1121" vertical-scroll-proportion="-1.0416666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="12" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="79" selection-start="252" selection-end="252" vertical-scroll-proportion="0.29220778">
           <folding />
         </state>
       </provider>

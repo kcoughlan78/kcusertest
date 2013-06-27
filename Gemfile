@@ -56,3 +56,5 @@ gem 'omniauth-linkedin'
 
 # To use debugger
 # gem 'debugger'
+
+gem 'simple_form'
