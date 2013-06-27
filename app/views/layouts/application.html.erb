@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Usertest</title>
+  <title>Test WebApp</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-<p class="notice"><%= notice %></p>
-<p class="alert"><%= alert %></p>
 <div class="navbar navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
@@ -17,7 +15,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a class="brand" href="#">Some Store</a>
+      <a class="brand" href="#">Test WebApp</a>
       <div class="nav-collapse">
         <ul class="nav">
     <li><%= link_to 'Home', root_url %></li>
@@ -30,6 +28,8 @@
     <li><%= link_to "Login", new_user_session_path %></li>
     <li><%= link_to "Sign in with Linkedin", user_omniauth_authorize_path(:linkedin) %></li>
           <% end %>
+    <li><%= notice %></li>
+    <li><%= alert %></li>
               </ul>
             </div>
           </div>
