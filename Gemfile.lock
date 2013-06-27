@@ -60,6 +60,9 @@ GEM
     json (1.8.0)
     less (2.3.2)
       commonjs (~> 0.2.6)
+    less-rails (2.3.3)
+      actionpack (>= 3.1)
+      less (~> 2.3.1)
     libv8 (3.11.8.17)
     mail (2.5.4)
       mime-types (~> 1.16)
@@ -145,6 +148,7 @@ DEPENDENCIES
   figaro
   jquery-rails
   less
+  less-rails
   omniauth
   omniauth-linkedin
   pg
