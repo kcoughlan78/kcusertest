@@ -33,18 +33,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="62" selection-start="502" selection-end="502" vertical-scroll-proportion="-10.625">
-              <folding>
-                <marker date="1372276897000" expanded="true" signature="115:203" placeholder="..." />
-                <marker date="1372276897000" expanded="true" signature="212:284" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="devise.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,10 +69,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="20" selection-start="50" selection-end="50" vertical-scroll-proportion="-0.9322034">
+            <state line="3" column="20" selection-start="50" selection-end="50" vertical-scroll-proportion="13.958333">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap_and_overrides.css.less" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="22" selection-start="62" selection-end="62" vertical-scroll-proportion="0.090361446">
               <folding />
             </state>
           </provider>
@@ -136,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
@@ -152,6 +148,7 @@
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
       </list>
     </option>
   </component>
@@ -965,13 +962,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="33" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
@@ -1011,8 +1001,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="62" selection-start="502" selection-end="502" vertical-scroll-proportion="-10.625">
           <folding>
-            <marker date="1372276897000" expanded="true" signature="115:203" placeholder="..." />
-            <marker date="1372276897000" expanded="true" signature="212:284" placeholder="..." />
+            <marker date="1372276897000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1372276897000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1075,7 +1065,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="20" selection-start="50" selection-end="50" vertical-scroll-proportion="-0.9322034">
+        <state line="3" column="20" selection-start="50" selection-end="50" vertical-scroll-proportion="13.958333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="22" selection-start="62" selection-end="62" vertical-scroll-proportion="0.090361446">
           <folding />
         </state>
       </provider>
