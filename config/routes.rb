@@ -5,10 +5,6 @@ Usertest::Application.routes.draw do
 
   get "home/index"
 
-scope "/profiles" do
-  resources :users, only: [:index, :show]
-end
-
 
 
   # The priority is based upon order of creation:
