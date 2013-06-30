@@ -1,4 +1,4 @@
-class AccountsController < ApplicationController
+class AccountsController < Devise::AccountsController
   def index
     @users = User.all
 
