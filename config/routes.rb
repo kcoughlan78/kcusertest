@@ -6,7 +6,7 @@ Usertest::Application.routes.draw do
   get "home/index"
 
 scope "/profiles" do
-  resources :users
+  resources :users, only: [:index, :show]
 end
 
 
