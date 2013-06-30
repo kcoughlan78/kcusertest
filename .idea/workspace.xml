@@ -8,8 +8,8 @@
     <file path="/Dummy.txt" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372270040901" ignored="false" />
     <file path="/application_controller.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372270765820" ignored="false" />
     <file path="/application.yml" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372291017172" ignored="false" />
-    <file path="/routes.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372579966825" ignored="false" />
-    <file path="/index.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372353816794" ignored="false" />
+    <file path="/routes.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372588180590" ignored="false" />
+    <file path="/index.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372589232028" ignored="false" />
     <file path="/devise.en.yml" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372275481863" ignored="false" />
     <file path="/new.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372337281637" ignored="false" />
     <file path="/application.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372580701082" ignored="false" />
@@ -18,7 +18,8 @@
     <file path="/omniauth_callbacks_controller.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372317761478" ignored="false" />
     <file path="/edit.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372337766623" ignored="false" />
     <file path="/users_controller.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372355299716" ignored="false" />
-    <file path="/show.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372354021605" ignored="false" />
+    <file path="/show.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372588750795" ignored="false" />
+    <file path="/accounts_controller.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372588221138" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="18" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.3773585">
+            <state line="28" column="18" selection-start="1043" selection-end="1043" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
@@ -74,7 +75,34 @@
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="18" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+            <state line="9" column="38" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accounts_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/accounts_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="62" selection-start="216" selection-end="216" vertical-scroll-proportion="0.49698794">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/accounts/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="9" selection-start="104" selection-end="104" vertical-scroll-proportion="-3.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/accounts/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="8" selection-start="366" selection-end="366" vertical-scroll-proportion="-11.25">
               <folding />
             </state>
           </provider>
@@ -108,9 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/locales/devise.en.yml" />
-        <option value="$PROJECT_DIR$/config/locales/devise.hu.yml" />
-        <option value="$PROJECT_DIR$/config/application.yml" />
         <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
         <option value="$PROJECT_DIR$/app/controllers/omniauth_callbacks_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
@@ -122,8 +147,11 @@
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/accounts_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/accounts/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/accounts/index.html.erb" />
       </list>
     </option>
   </component>
@@ -379,6 +407,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="registrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="usertest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="usertest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accounts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -894,16 +944,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+        <state line="28" column="18" selection-start="1043" selection-end="1043" vertical-scroll-proportion="-5.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="18" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.3773585">
+        <state line="9" column="38" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/accounts/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="9" selection-start="104" selection-end="104" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/accounts/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="8" selection-start="366" selection-end="366" vertical-scroll-proportion="-11.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/accounts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="62" selection-start="216" selection-end="216" vertical-scroll-proportion="0.49698794">
           <folding />
         </state>
       </provider>

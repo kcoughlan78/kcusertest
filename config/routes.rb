@@ -1,7 +1,13 @@
 Usertest::Application.routes.draw do
 
+  get "accounts/index"
+
+  get "accounts/show"
+
   devise_for :users, path_names: {sign_in: "login", sign_out: "logout", sign_up: "Register"},
              controllers: {omniauth_callbacks: "omniauth_callbacks"}
+
+  resources :accounts, only: [:index, :show]
 
   get "home/index"
 
