@@ -5,9 +5,9 @@ Usertest::Application.routes.draw do
 
   get "home/index"
 
-  get "users/index"
-
-  get "users/show"
+scope "/profiles" do
+  resources :users
+end
 
 
 
