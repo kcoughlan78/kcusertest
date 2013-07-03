@@ -7,7 +7,7 @@ class User < ActiveRecord::Base
 
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :password, :password_confirmation, :remember_me, :username, :bio, :address1, :address2, :city,
-                  :county
+                  :county, :firstname, :surname
   # attr_accessible :title, :body
 
 
@@ -24,6 +24,10 @@ class User < ActiveRecord::Base
 
   validates :city, :presence => true,
             :length => { :maximum => 75 }
+
+  validates :firstname, :length => { :maximum => 25 }
+
+  validates :surname, :length => { :maximum => 45 }
 
 
 

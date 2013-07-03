@@ -14,11 +14,11 @@
     <file path="/new.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372337281637" ignored="false" />
     <file path="/application.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372604762310" ignored="false" />
     <file path="/devise.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372291057773" ignored="false" />
-    <file path="/user.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372873514984" ignored="false" />
+    <file path="/user.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372876234028" ignored="false" />
     <file path="/omniauth_callbacks_controller.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372317761478" ignored="false" />
-    <file path="/edit.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372875512806" ignored="false" />
+    <file path="/edit.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372876274474" ignored="false" />
     <file path="/users_controller.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372355299716" ignored="false" />
-    <file path="/show.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372873597040" ignored="false" />
+    <file path="/show.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372876327401" ignored="false" />
     <file path="/accounts_controller.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372588221138" ignored="false" />
     <file path="/20130703094903_add_bio_to_users.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372845192747" ignored="false" />
     <file path="$USER_HOME$/Documents/HvM/app/models/post.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372872940049" ignored="false" />
@@ -47,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="74" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.7692308">
+            <state line="22" column="24" selection-start="1477" selection-end="1477" vertical-scroll-proportion="-10.0">
               <folding />
             </state>
           </provider>
@@ -92,10 +92,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/accounts/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="17" selection-start="307" selection-end="307" vertical-scroll-proportion="-7.5">
+            <state line="13" column="31" selection-start="364" selection-end="364" vertical-scroll-proportion="0.4054054">
               <folding />
             </state>
           </provider>
@@ -113,7 +113,7 @@
       <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="2" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0">
+            <state line="31" column="0" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -142,9 +142,9 @@
         <option value="$PROJECT_DIR$/app/controllers/accounts_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/accounts/index.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20130703094903_add_bio_to_users.rb" />
-        <option value="$PROJECT_DIR$/app/views/accounts/show.html.erb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/accounts/show.html.erb" />
       </list>
     </option>
   </component>
@@ -969,23 +969,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/accounts/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="307" selection-end="307" vertical-scroll-proportion="-7.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="2" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0">
+        <state line="31" column="0" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="74" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.7692308">
+        <state line="22" column="24" selection-start="1477" selection-end="1477" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/accounts/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="31" selection-start="364" selection-end="364" vertical-scroll-proportion="0.4054054">
           <folding />
         </state>
       </provider>
