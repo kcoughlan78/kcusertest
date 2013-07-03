@@ -10,12 +10,7 @@ class User < ActiveRecord::Base
                   :county
   # attr_accessible :title, :body
 
-  COUNTY_NAMES = [ "Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin 1", "Dublin 2", "Dublin 3", "Dublin 4", "Dublin 5",
-                   "Dublin 6", "Dublin 6w", "Dublin 7", "Dublin 8", "Dublin 9", "Dublin 10", "Dublin 11", "Dublin 12",
-                   "Dublin 13", "Dublin 14", "Dublin 15", "Dublin 16", "Dublin 17", "Dublin 18", "Dublin 19", "Dublin 20",
-                   "Dublin 21", "Dublin 22", "Dublin 23", "Dublin 24", "Co. Dublin", "Galway", "Kerry", "Kildare", "Kilkenny",
-                   "Laois", "Leitrim", "Limerick", "Longford", "Louth", "Mayo", "Meath", "Monaghan", "Offaly", "Roscommon",
-                   "Sligo", "Tipperary", "Waterford", "Westmeath", "Wexford", "Wicklow"]
+
 
   validates_presence_of :username
 
@@ -30,7 +25,7 @@ class User < ActiveRecord::Base
   validates :city, :presence => true,
             :length => { :maximum => 75 }
 
-  validates :county, inclusion: COUNTY_NAMES
+
 
 
   def self.from_omniauth(auth)
