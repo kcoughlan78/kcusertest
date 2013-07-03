@@ -6,7 +6,7 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   # Setup accessible (or protected) attributes for your model
-  attr_accessible :email, :password, :password_confirmation, :remember_me, :username, :bio, :address1, :address2
+  attr_accessible :email, :password, :password_confirmation, :remember_me, :username, :bio, :address1, :address2, :city
   # attr_accessible :title, :body
 
   validates_presence_of :username
@@ -18,6 +18,9 @@ class User < ActiveRecord::Base
 
   validates :bio, :presence => true,
   :length => { :maximum => 300 }
+
+  validates :city, :presence => true,
+            :length => { :maximum => 75 }
 
 
   def self.from_omniauth(auth)

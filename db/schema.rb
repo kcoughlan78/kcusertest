@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130703102957) do
+ActiveRecord::Schema.define(:version => 20130703104308) do
 
   create_table "users", :force => true do |t|
     t.string   "email",                  :default => "",                                                                                                                             :null => false
@@ -32,6 +32,7 @@ ActiveRecord::Schema.define(:version => 20130703102957) do
     t.text     "bio",                    :default => "'Your bio is a something you can use during your networking activities\nplease take time to overwrite this default message.'"
     t.string   "address1"
     t.string   "address2"
+    t.string   "city"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
