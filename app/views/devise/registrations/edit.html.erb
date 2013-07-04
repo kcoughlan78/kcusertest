@@ -9,6 +9,9 @@
   <% end %>
 
     <%= f.input :username %>
+    <%= f.input :firstname %>
+    <%= f.input :surname %>
+    <%= f.input :dob %>
     <%= f.input :bio %>
     <%= f.input :address1 %>
     <%= f.input :address2 %>
@@ -19,8 +22,6 @@
                                          "Dublin 21", "Dublin 22", "Dublin 23", "Dublin 24", "Co. Dublin", "Galway", "Kerry", "Kildare", "Kilkenny",
                                          "Laois", "Leitrim", "Limerick", "Longford", "Louth", "Mayo", "Meath", "Monaghan", "Offaly", "Roscommon",
                                          "Sligo", "Tipperary", "Waterford", "Westmeath", "Wexford", "Wicklow"], prompt: 'Select your county' %>
-    <%= f.input :firstname %>
-    <%= f.input :surname %>
     <%= f.input :password %>
     <%= f.input :password_confirmation %>
     <%= f.input :current_password %>
