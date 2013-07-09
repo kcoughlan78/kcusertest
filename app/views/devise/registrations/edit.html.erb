@@ -11,7 +11,11 @@
     <%= f.input :username %>
     <%= f.input :firstname %>
     <%= f.input :surname %>
-    <%= f.input :dob %>
+    <%= f.input :dob, as: :date, start_year: Date.today.year - 90,
+                end_year: Date.today.year - 16,
+                order: [:day, :month, :year] %>
+    <%= f.input :usertype, :collection => ["Jobhunter", "Freelancers &amp; Small Businesses", "Hiring Business", "Recruitment Company"],
+                as: :radio_buttons %>
     <%= f.input :bio %>
     <%= f.input :address1 %>
     <%= f.input :address2 %>

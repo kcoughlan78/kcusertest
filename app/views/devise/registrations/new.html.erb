@@ -5,6 +5,8 @@
 
     <%= f.input :email %>
     <%= f.input :username %>
+    <%= f.input :usertype, :collection => ["Jobhunter", "Freelancers &amp; Small Businesses", "Hiring Business", "Recruitment Company"],
+                as: :radio_buttons %>
     <%= f.input :password %>
     <%= f.input :password_confirmation %>
 
