@@ -28,6 +28,9 @@
                                          "Sligo", "Tipperary", "Waterford", "Westmeath", "Wexford", "Wicklow"], prompt: 'Select your county' %>
     <%= f.input :launchedIn, label: 'Year business launched', as: :date, start_year: Date.today.year - 300,
                 end_year: Date.today.year, discard_day: true, discard_month: true, order: [:year] %>
+    <%= f.input :industry, :collection => ["Academic", "Accounting", "Architecture", "Banking", "Beauty" "Childcare", "Education", "Finance", "Financial Services",
+"Healthcare", "Hotels", "Recruitment", "IT", "Legal", "Leisure", "Manufacturing", "Marketing", "Media", "Medical" "Motor", "Pharmaceutical",
+    "Property", "Pubs", "Restaurants", "Retail-Fashion", "Retail-Grocery", "Secretarial", "Security", "Travel", "Undertaker" ], prompt: 'Choose an Industry' %>
     <%= f.input :password %>
     <%= f.input :password_confirmation %>
     <%= f.input :current_password %>
