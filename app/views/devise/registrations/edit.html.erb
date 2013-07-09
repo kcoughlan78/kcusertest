@@ -14,7 +14,7 @@
     <%= f.input :dob, label: 'Date of Birth', as: :date, start_year: Date.today.year - 90,
                 end_year: Date.today.year - 16,
                 order: [:day, :month, :year] %>
-    <%= f.input :usertype, label: 'Which best describes you', :collection => ["Jobhunter", "Freelancers &amp; Small Businesses", "Hiring Business", "Recruitment Company"],
+    <%= f.input :usertype, label: 'Which best describes you', :collection => ["Jobhunter", "Freelancers & Small Businesses", "Hiring Business", "Recruitment Company"],
                 as: :radio_buttons %>
     <%= f.input :bio, label: 'Tell us about you', hint: 'Maximum 300 characters' %>
     <%= f.input :address1 %>
