@@ -12,7 +12,7 @@
  *= require_tree .
  */
 
-#jobHunter {visibility: hidden;}
-#smallBiz {visibility: hidden;}
-#hireBiz {visibility: hidden;}
-#recruiters {visibility: hidden;}
+#jobHunter {visibility: hidden; height: 0px;}
+#smallBiz {visibility: hidden; height: 0px;}
+#hireBiz {visibility: hidden; height: 0px;}
+#recruiters {visibility: hidden; height: 0px;}
