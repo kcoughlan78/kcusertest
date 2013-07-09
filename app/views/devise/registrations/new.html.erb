@@ -3,9 +3,9 @@
 <%= simple_form_for(resource, :as => resource_name, :html => { :class => 'form-horizontal' }, :url => registration_path(resource_name)) do |f| %>
 
 
-    <%= f.input :email %>
+    <%= f.input :email, placeholder: 'example@domain.com' %>
     <%= f.input :username %>
-    <%= f.input :usertype, :collection => ["Jobhunter", "Freelancers &amp; Small Businesses", "Hiring Business", "Recruitment Company"],
+    <%= f.input :usertype, label: 'Which best describes you', :collection => ["Jobhunter", "Freelancers & Small Businesses", "Hiring Business", "Recruitment Company"],
                 as: :radio_buttons %>
     <%= f.input :password %>
     <%= f.input :password_confirmation %>
