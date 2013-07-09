@@ -11,3 +11,8 @@
  *= require_self
  *= require_tree .
  */
+
+#jobHunter {visibility: hidden;}
+#smallBiz {visibility: hidden;}
+#hireBiz {visibility: hidden;}
+#recruiters {visibility: hidden;}

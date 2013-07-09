@@ -7,6 +7,24 @@
     <%= f.input :username %>
     <%= f.input :usertype, label: 'Which best describes you', :collection => ["Jobhunter", "Freelancers & Small Businesses", "Hiring Business", "Recruitment Company"],
                 as: :radio_buttons %>
+    <section id="jobHunter">
+      <%= f.input :dob, label: 'Date of Birth', as: :date, start_year: Date.today.year - 90,
+                  end_year: Date.today.year - 16,
+                  order: [:day, :month, :year] %>
+    </section>
+    <section id="smallBiz">
+      <%= f.input :launchedIn, label: 'Year business launched', as: :date, start_year: Date.today.year - 300,
+                  end_year: Date.today.year, discard_day: true, discard_month: true, order: [:year] %>
+    </section>
+    <section id="hireBiz">
+      <%= f.input :industry, :collection => ["Academic", "Accounting", "Architecture", "Banking", "Beauty" "Childcare", "Education", "Finance", "Financial Services",
+                                             "Healthcare", "Hotels", "Recruitment", "IT", "Legal", "Leisure", "Manufacturing", "Marketing", "Media", "Medical" "Motor", "Pharmaceutical",
+                                             "Property", "Pubs", "Restaurants", "Retail-Fashion", "Retail-Grocery", "Secretarial", "Security", "Travel", "Undertaker" ], prompt: 'Choose an Industry' %>
+    </section>
+    <section id="recruiters">
+      <%= f.input :bio, label: 'Tell us about you', hint: 'Maximum 300 characters' %>
+    </section>
+
     <%= f.input :password %>
     <%= f.input :password_confirmation %>
 
