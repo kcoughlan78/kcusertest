@@ -5,14 +5,16 @@
  * Time: 07:33
  * To change this template use File | Settings | File Templates.
  */
-var JH_Input = document.getElementById("user_usertype_jobhunter");
-var jobHunter = document.getElementById("jobHunter");
+$(document).ready(function(){
 
 
-$("#user_usertype_jobhunter").checked(function(){
-    $(jobHunter).css({height: 'auto', visibility: 'visible'});
+$("#user_usertype_jobhunter").click(function(){
+    if ($('input[name=usertype]:checked').val() == "Jobhunter") {
+    $("#jobHunter").css({display: "block"});
+    }
 });
 
+});
 
 
 
