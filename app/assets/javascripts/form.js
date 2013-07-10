@@ -11,8 +11,8 @@ var jobHunter = document.getElementById("jobHunter");
 function form() {
 
     if ($(JH_Input).prop("checked")) {
-    $(jobHunter).style.visibility = "visible";
-        $(jobHunter).style.height = "auto";
+    jobHunter.style.visibility = "visible";
+    jobHunter.style.height = "auto";
     }
 }
 
