@@ -8,8 +8,8 @@
 $(document).ready(function(){
 
 
-$(".radio").click(function(){
-    if ($('input[id=user_usertype_jobhunter]:checked').val() == "Jobhunter") {
+$(".radio_buttons").click(function(){
+    if ($('input[name=usertype]:checked').val() == "Jobhunter") {
     $("#jobHunter").slideDown("fast");
     }
 });
