@@ -8,11 +8,13 @@
 var JH_Input = document.getElementById("user_usertype_jobhunter");
 var jobHunter = document.getElementById("jobHunter");
 
-function form() {
 
-    if (JH_Input.checked=true) {
-    jobHunter.style.visibility = "visible";
-    jobHunter.style.height = "auto";
-    }
-}
+$("#user_usertype_jobhunter").checked(function(){
+    $(jobHunter).css({height: 'auto', visibility: 'visible'});
+});
+
+
+
+
+
 
