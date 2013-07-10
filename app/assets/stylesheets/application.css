@@ -13,6 +13,6 @@
  */
 
 #jobHunter {display: none;}
-#smallBiz {visibility: hidden; height: 0px;}
-#hireBiz {visibility: hidden; height: 0px;}
-#recruiters {visibility: hidden; height: 0px;}
+#smallBiz {display: none;}
+#hireBiz {display: none;}
+#recruiters {display: none;}

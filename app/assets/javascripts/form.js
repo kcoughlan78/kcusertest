@@ -8,7 +8,7 @@
 $(document).ready(function(){
 
 
-$("#user_usertype_jobhunter").click(function(){
+$(".radiobutton").click(function(){
     if ($('input[name=usertype]:checked').val() == "Jobhunter") {
     $("#jobHunter").slideDown("fast");
     }
