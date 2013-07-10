@@ -8,11 +8,13 @@
 var JH_Input = document.getElementById("user_usertype_jobhunter");
 var jobHunter = document.getElementById("jobHunter");
 
-$(JH_Input).click(function(){
+function form() {
 
+    if ($(JH_Input).prop("checked")) {
     $(jobHunter).css("visibility","visible");
     $(jobHunter).css("height","auto");
+    }
 
 
-});
+}
 
