@@ -1,8 +1,10 @@
 ---
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
-application.js: application-b3e10832a3b79368ed7a8df9ad12f20a.js
-application/index.js: application-b3e10832a3b79368ed7a8df9ad12f20a.js
+application.js: application-b5b9df4839d87e57cce875740d993353.js
+application/index.js: application-b5b9df4839d87e57cce875740d993353.js
+form.js: form-5f93607808b711bfdd60e569e7935199.js
+form/index.js: form-5f93607808b711bfdd60e569e7935199.js
 application.css: application-ef16759cfa0893dc041ed0a273bfc1d3.css
 application/index.css: application-ef16759cfa0893dc041ed0a273bfc1d3.css
 jquery.min.map: jquery.min-1c0cf7b6a3425fbd9a3bfccab0a99a4e.map

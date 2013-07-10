@@ -1,0 +1,1 @@
+var jobHunter=document.getElementById("jobHunter");$("#user_usertype_jobhunter").hover(function(){$(jobHunter).css("visibility","visible"),$(jobHunter).css("height","auto")});
