@@ -24,6 +24,7 @@
     <file path="$USER_HOME$/Documents/HvM/app/models/post.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372872940049" ignored="false" />
     <file path="/application.css" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1373404210703" ignored="false" />
     <file path="/form.js" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1373439335821" ignored="false" />
+    <file path="/production.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1373440008914" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +71,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="form.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="6" selection-start="269" selection-end="269" vertical-scroll-proportion="0.147929">
+            <state line="11" column="6" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#158#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="38" selection-start="1943" selection-end="1943" vertical-scroll-proportion="0.7633136">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,15 +95,6 @@
         <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="18" column="4" selection-start="898" selection-end="977" vertical-scroll-proportion="-5.3333335">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="accounts_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/accounts_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="30" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -145,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
@@ -161,6 +161,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/form.js" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -907,11 +908,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="19" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.0">
@@ -1010,10 +1006,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="269" selection-end="269" vertical-scroll-proportion="0.147929">
+        <state line="11" column="6" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#158#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="38" selection-start="1943" selection-end="1943" vertical-scroll-proportion="0.7633136">
+          <folding />
         </state>
       </provider>
     </entry>
