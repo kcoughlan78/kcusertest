@@ -5,7 +5,7 @@
 
     <%= f.input :email, placeholder: 'example@domain.com' %>
     <%= f.input :username %>
-    <%= f.input :usertype, label: 'Which best describes you', name: 'usertype', :collection => ["Jobhunter", "Freelancers & Small Businesses", "Hiring Business", "Recruitment Company"],
+    <%= f.input :usertype, label: 'Which best describes you', name: 'user', :collection => ["Jobhunter", "Freelancers & Small Businesses", "Hiring Business", "Recruitment Company"],
                 as: :radio_buttons %>
     <section id="jobHunter">
       <%= f.input :dob, label: 'Date of Birth', as: :date, start_year: Date.today.year - 90,

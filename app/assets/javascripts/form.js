@@ -8,9 +8,9 @@
 $(document).ready(function(){
 
 
-$("#user_usertype_jobhunter").click(function(){
-    if ($('input[name=usertype]:checked').val() == "Jobhunter") {
-    $("#jobHunter").css({display: "block"});
+$(".radio").click(function(){
+    if ($('input[id=user_usertype_jobhunter]:checked').val() == "Jobhunter") {
+    $("#jobHunter").slideDown("fast");
     }
 });
 
