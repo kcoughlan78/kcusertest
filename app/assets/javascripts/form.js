@@ -10,7 +10,7 @@ var jobHunter = document.getElementById("jobHunter");
 
 function form() {
 
-    if (JH_Input.checked) {
+    if (JH_Input.checked=true) {
     jobHunter.style.visibility = "visible";
     jobHunter.style.height = "auto";
     }
