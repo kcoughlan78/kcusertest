@@ -11,28 +11,28 @@
 jQuery(function($){
 $("input[type=radio]").click(function(){
     if ($('input[name=usertype]:checked').val() == "Jobhunter") {
-        $("#jobHunter").slideDown("fast");
-        $("#recruiters").slideUp("fast");
-        $("#smallBiz").slideUp("fast");
-        $("#hireBiz").slideUp("fast");
+        $(".jobHunter").slideDown("fast");
+        $(".recruiters").slideUp("fast");
+        $(".smallBiz").slideUp("fast");
+        $(".hireBiz").slideUp("fast");
     }
     if ($('input[name=usertype]:checked').val() == "Freelancers & Small Businesses") {
-        $("#smallBiz").slideDown("fast");
-        $("#recruiters").slideUp("fast");
-        $("#jobHunter").slideUp("fast");
-        $("#hireBiz").slideUp("fast");
+        $(".smallBiz").slideDown("fast");
+        $(".recruiters").slideUp("fast");
+        $(".jobHunter").slideUp("fast");
+        $(".hireBiz").slideUp("fast");
     }
     if ($('input[name=usertype]:checked').val() == "Hiring Business") {
-        $("#hireBiz").slideDown("fast");
-        $("#recruiters").slideUp("fast");
-        $("#jobHunter").slideUp("fast");
-        $("#smallBiz").slideUp("fast");
+        $(".hireBiz").slideDown("fast");
+        $(".recruiters").slideUp("fast");
+        $(".jobHunter").slideUp("fast");
+        $(".smallBiz").slideUp("fast");
     }
     if ($('input[name=usertype]:checked').val() == "Recruitment Company") {
-        $("#recruiters").slideDown("fast");
-        $("#hireBiz").slideUp("fast");
-        $("#jobHunter").slideUp("fast");
-        $("#smallBiz").slideUp("fast");
+        $(".recruiters").slideDown("fast");
+        $(".hireBiz").slideUp("fast");
+        $(".jobHunter").slideUp("fast");
+        $(".smallBiz").slideUp("fast");
     }
 });
 });
