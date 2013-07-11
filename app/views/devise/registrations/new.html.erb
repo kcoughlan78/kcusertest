@@ -5,7 +5,8 @@
 
     <%= f.input :email, placeholder: 'example@domain.com' %>
     <%= f.input :username %>
-    <%= f.input :usertype, label: 'Which best describes you', :input_html => {:name => "usertype"}, :collection => User::USER_CATEGORIES %>
+    <%= f.input :usertype, label: 'Which best describes you', :input_html => {:name => "usertype"}, :collection => User::USER_CATEGORIES,
+                as: :radio_buttons, hint: 'To proceed please pick one of the above options' %>
     <section id="jobHunter">
       <%= f.input :firstname %>
       <%= f.input :surname %>

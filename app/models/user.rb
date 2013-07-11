@@ -18,9 +18,6 @@ class User < ActiveRecord::Base
 
   validates :address2, :length => { :maximum => 50 }
 
-  validates :usertype, inclusion: USER_CATEGORIES
-
-
   validates :bio, :length => { :maximum => 300 }
 
   validates :city, :length => { :maximum => 75 }
