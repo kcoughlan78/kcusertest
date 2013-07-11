@@ -11,18 +11,55 @@
       <%= f.input :dob, label: 'Date of Birth', as: :date, start_year: Date.today.year - 90,
                   end_year: Date.today.year - 16,
                   order: [:day, :month, :year] %>
+      <%= f.input :bio, label: 'Tell us about you', hint: 'Maximum 300 characters' %>
+      <%= f.input :address1 %>
+      <%= f.input :address2 %>
+      <%= f.input :city %>
+      <%= f.input :county, :collection => ["Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin 1", "Dublin 2", "Dublin 3", "Dublin 4", "Dublin 5",
+                                           "Dublin 6", "Dublin 6w", "Dublin 7", "Dublin 8", "Dublin 9", "Dublin 10", "Dublin 11", "Dublin 12",
+                                           "Dublin 13", "Dublin 14", "Dublin 15", "Dublin 16", "Dublin 17", "Dublin 18", "Dublin 19", "Dublin 20",
+                                           "Dublin 21", "Dublin 22", "Dublin 23", "Dublin 24", "Co. Dublin", "Galway", "Kerry", "Kildare", "Kilkenny",
+                                           "Laois", "Leitrim", "Limerick", "Longford", "Louth", "Mayo", "Meath", "Monaghan", "Offaly", "Roscommon",
+                                           "Sligo", "Tipperary", "Waterford", "Westmeath", "Wexford", "Wicklow"], prompt: 'Select your county' %>
     </section>
     <section id="smallBiz">
       <%= f.input :launchedIn, label: 'Year business launched', as: :date, start_year: Date.today.year - 300,
                   end_year: Date.today.year, discard_day: true, discard_month: true, order: [:year] %>
+      <%= f.input :address1 %>
+      <%= f.input :address2 %>
+      <%= f.input :city %>
+      <%= f.input :county, :collection => ["Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin 1", "Dublin 2", "Dublin 3", "Dublin 4", "Dublin 5",
+                                           "Dublin 6", "Dublin 6w", "Dublin 7", "Dublin 8", "Dublin 9", "Dublin 10", "Dublin 11", "Dublin 12",
+                                           "Dublin 13", "Dublin 14", "Dublin 15", "Dublin 16", "Dublin 17", "Dublin 18", "Dublin 19", "Dublin 20",
+                                           "Dublin 21", "Dublin 22", "Dublin 23", "Dublin 24", "Co. Dublin", "Galway", "Kerry", "Kildare", "Kilkenny",
+                                           "Laois", "Leitrim", "Limerick", "Longford", "Louth", "Mayo", "Meath", "Monaghan", "Offaly", "Roscommon",
+                                           "Sligo", "Tipperary", "Waterford", "Westmeath", "Wexford", "Wicklow"], prompt: 'Select your county' %>
     </section>
     <section id="hireBiz">
       <%= f.input :industry, :collection => ["Academic", "Accounting", "Architecture", "Banking", "Beauty" "Childcare", "Education", "Finance", "Financial Services",
                                              "Healthcare", "Hotels", "Recruitment", "IT", "Legal", "Leisure", "Manufacturing", "Marketing", "Media", "Medical" "Motor", "Pharmaceutical",
                                              "Property", "Pubs", "Restaurants", "Retail-Fashion", "Retail-Grocery", "Secretarial", "Security", "Travel", "Undertaker" ], prompt: 'Choose an Industry' %>
+      <%= f.input :address1 %>
+      <%= f.input :address2 %>
+      <%= f.input :city %>
+      <%= f.input :county, :collection => ["Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin 1", "Dublin 2", "Dublin 3", "Dublin 4", "Dublin 5",
+                                           "Dublin 6", "Dublin 6w", "Dublin 7", "Dublin 8", "Dublin 9", "Dublin 10", "Dublin 11", "Dublin 12",
+                                           "Dublin 13", "Dublin 14", "Dublin 15", "Dublin 16", "Dublin 17", "Dublin 18", "Dublin 19", "Dublin 20",
+                                           "Dublin 21", "Dublin 22", "Dublin 23", "Dublin 24", "Co. Dublin", "Galway", "Kerry", "Kildare", "Kilkenny",
+                                           "Laois", "Leitrim", "Limerick", "Longford", "Louth", "Mayo", "Meath", "Monaghan", "Offaly", "Roscommon",
+                                           "Sligo", "Tipperary", "Waterford", "Westmeath", "Wexford", "Wicklow"], prompt: 'Select your county' %>
     </section>
     <section id="recruiters">
       <%= f.input :bio, label: 'Tell us about you', hint: 'Maximum 300 characters' %>
+      <%= f.input :address1 %>
+      <%= f.input :address2 %>
+      <%= f.input :city %>
+      <%= f.input :county, :collection => ["Carlow", "Cavan", "Clare", "Cork", "Donegal", "Dublin 1", "Dublin 2", "Dublin 3", "Dublin 4", "Dublin 5",
+                                           "Dublin 6", "Dublin 6w", "Dublin 7", "Dublin 8", "Dublin 9", "Dublin 10", "Dublin 11", "Dublin 12",
+                                           "Dublin 13", "Dublin 14", "Dublin 15", "Dublin 16", "Dublin 17", "Dublin 18", "Dublin 19", "Dublin 20",
+                                           "Dublin 21", "Dublin 22", "Dublin 23", "Dublin 24", "Co. Dublin", "Galway", "Kerry", "Kildare", "Kilkenny",
+                                           "Laois", "Leitrim", "Limerick", "Longford", "Louth", "Mayo", "Meath", "Monaghan", "Offaly", "Roscommon",
+                                           "Sligo", "Tipperary", "Waterford", "Westmeath", "Wexford", "Wicklow"], prompt: 'Select your county' %>
     </section>
 
     <%= f.input :password %>
