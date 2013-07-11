@@ -7,7 +7,7 @@
  */
 $(document).ready(function(){
 
-    $('input[name=usertype]').parent().addClass("radiobutton");
+    $('input:radio').parent().addClass("radiobutton");
 
 
 $(".radiobutton").click(function(){
