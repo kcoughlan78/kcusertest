@@ -12,7 +12,19 @@
  *= require_tree .
  */
 
+ /* for specific Jobhunter values on the reg form */
 .jobHunter {display: none;}
+/* for specific Small Biz and freelancers values on the reg form */
 .smallBiz {display: none;}
+/* for specific hiring businesses values on the reg form */
 .hireBiz {display: none;}
+/* for specific recruitment agency values on the reg form */
 .recruiters {display: none;}
+/* for common values on the reg form */
+.commonFields {display: none;}
+/* for small businesses hiring businesses and recruitment agencies */
+.bizCommon {display: none;}
+/* for free accounts i.e. small biz and jobhunters */
+.freeAcc {display: none;}
+/* for premium accounts i.e. hiring biz and recruitment agents */
+.premium {display: none;}

@@ -9,15 +9,16 @@
                 as: :radio_buttons, hint: 'To proceed please pick one of the above options' %>
     <section class="jobHunter">
       <%= f.input :firstname %>
-      <%= f.input :surname %>
+      <%= f.input :surname, hint: 'If small business enter owner, or whoever the main contact will be' %>
       <%= f.input :dob, label: 'Date of Birth', as: :date, start_year: Date.today.year - 90,
                   end_year: Date.today.year - 16,
                   order: [:day, :month, :year] %>
       </section>
-      <section class="jobHunter smallBiz">
-      <%= f.input :bio, label: 'Tell us about you', hint: 'Maximum 300 characters' %>
+      <section class="freeAcc">
+      <%= f.input :bio, label: 'Tell us about you', hint: 'Maximum 300 characters', placeholder: 'Individuals give a brief description, small business a few lines about your
+      operations or details of team members' %>
       </section>
-      <section class="jobHunter smallBiz hireBiz recruiters">
+      <section class="commonFields">
       <%= f.input :address1 %>
       <%= f.input :address2 %>
       <%= f.input :city %>
@@ -28,11 +29,11 @@
                                            "Laois", "Leitrim", "Limerick", "Longford", "Louth", "Mayo", "Meath", "Monaghan", "Offaly", "Roscommon",
                                            "Sligo", "Tipperary", "Waterford", "Westmeath", "Wexford", "Wicklow"], prompt: 'Select your county' %>
     </section>
-    <section class="smallBiz hireBiz recruiters">
+    <section class="bizCommon">
       <%= f.input :launchedIn, label: 'Year business launched', as: :date, start_year: Date.today.year - 300,
                   end_year: Date.today.year, discard_day: true, discard_month: true, order: [:year] %>
     </section>
-    <section class="hireBiz">
+    <section class="bizCommon">
       <%= f.input :industry, :collection => ["Academic", "Accounting", "Architecture", "Banking", "Beauty" "Childcare", "Education", "Finance", "Financial Services",
                                              "Healthcare", "Hotels", "Recruitment", "IT", "Legal", "Leisure", "Manufacturing", "Marketing", "Media", "Medical" "Motor", "Pharmaceutical",
                                              "Property", "Pubs", "Restaurants", "Retail-Fashion", "Retail-Grocery", "Secretarial", "Security", "Travel", "Undertaker" ], prompt: 'Choose an Industry' %>
