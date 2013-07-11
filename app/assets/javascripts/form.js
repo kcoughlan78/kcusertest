@@ -9,7 +9,7 @@
 
 
 
-$("input[name=usertype]").click(function(){
+$("input[type=radio]").click(function(){
     if ($('input[name=usertype]:checked').val() == "Jobhunter") {
         $("#jobHunter").slideDown("fast");
         $("#recruiters").slideUp("fast");
