@@ -5,14 +5,8 @@
 
     <%= f.input :email, placeholder: 'example@domain.com' %>
     <%= f.input :username %>
-    <%= f.radio_button :usertype, 'Jobhunter', class: 'radiobutton' %>
-    <%= label :usertype, :value => 'Jobhunter' %>
-    <%= f.radio_button :usertype, 'Freelancers & Small Businesses', class: 'radiobutton' %>
-    <%= label :usertype, :value => 'Freelancers & Small Businesses' %>
-    <%= f.radio_button :usertype, 'Hiring Business', class: 'radiobutton' %>
-    <%= label :usertype, :value => 'Hiring Business' %>
-    <%= f.radio_button :usertype, 'Recruitment Company', class: 'radiobutton' %>
-    <%= label :usertype, :value => 'Recruitment Company' %>
+    <%= f.input :usertype, label: 'Which best describes you', :input_html => {:name => "usertype", :class => "radiobutton"}, :collection => ["Jobhunter", "Freelancers & Small Businesses", "Hiring Business", "Recruitment Company"],
+                as: :radio_buttons %>
     <ul id="jobHunter">
       <li><%= f.input :dob, label: 'Date of Birth', as: :date, start_year: Date.today.year - 90,
                   end_year: Date.today.year - 16,
