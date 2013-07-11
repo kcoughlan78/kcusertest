@@ -8,10 +8,8 @@
 $(document).ready(function(){
 
 
-    $(".radio").child().addClass("radiobutton");
 
-
-$(".radiobutton").click(function(){
+$("input[name=usertype]").click(function(){
     if ($('input[name=usertype]:checked').val() == "Jobhunter") {
         $("#jobHunter").slideDown("fast");
         $("#recruiters").slideUp("fast");

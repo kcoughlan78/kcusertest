@@ -74,7 +74,7 @@
       <file leaf-file-name="form.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="204" selection-end="204" vertical-scroll-proportion="0.11320755">
+            <state line="35" column="53" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.8207547">
               <folding>
                 <element signature="e#0#158#0" expanded="false" />
               </folding>
@@ -704,13 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="47" selection-start="687" selection-end="687" vertical-scroll-proportion="-9.083333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/templates/erb/scaffold/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -732,6 +725,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="47" selection-start="687" selection-end="687" vertical-scroll-proportion="-9.083333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="97" selection-start="354" selection-end="354" vertical-scroll-proportion="-4.375">
@@ -741,7 +741,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="204" selection-end="204" vertical-scroll-proportion="0.11320755">
+        <state line="35" column="53" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.8207547">
           <folding>
             <element signature="e#0#158#0" expanded="false" />
           </folding>
