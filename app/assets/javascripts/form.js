@@ -10,7 +10,7 @@ $(document).ready(function(){
     $('input:radio').parent().addClass("radiobutton");
 
 
-$(".radiobutton").click(function(){
+$(".radio_buttons required").click(function(){
     if ($('input[name=usertype]:checked').val() == "Jobhunter") {
         $("#jobHunter").slideDown("fast");
         $("#recruiters").slideUp("fast");
