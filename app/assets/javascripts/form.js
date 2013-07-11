@@ -5,7 +5,7 @@
  * Time: 07:33
  * To change this template use File | Settings | File Templates.
  */
-$(document).ready(function(){
+
 
 
 
@@ -36,7 +36,7 @@ $("input[name=usertype]").click(function(){
     }
 });
 
-});
+
 
 
 

@@ -12,18 +12,18 @@
                   end_year: Date.today.year - 16,
                   order: [:day, :month, :year] %></li>
     </ul>
-    <section id="smallBiz">
-      <%= f.input :launchedIn, label: 'Year business launched', as: :date, start_year: Date.today.year - 300,
-                  end_year: Date.today.year, discard_day: true, discard_month: true, order: [:year] %>
-    </section>
-    <section id="hireBiz">
-      <%= f.input :industry, :collection => ["Academic", "Accounting", "Architecture", "Banking", "Beauty" "Childcare", "Education", "Finance", "Financial Services",
+    <ul id="smallBiz">
+      <li><%= f.input :launchedIn, label: 'Year business launched', as: :date, start_year: Date.today.year - 300,
+                  end_year: Date.today.year, discard_day: true, discard_month: true, order: [:year] %></li>
+    </ul>
+    <ul id="hireBiz">
+      <li><%= f.input :industry, :collection => ["Academic", "Accounting", "Architecture", "Banking", "Beauty" "Childcare", "Education", "Finance", "Financial Services",
                                              "Healthcare", "Hotels", "Recruitment", "IT", "Legal", "Leisure", "Manufacturing", "Marketing", "Media", "Medical" "Motor", "Pharmaceutical",
                                              "Property", "Pubs", "Restaurants", "Retail-Fashion", "Retail-Grocery", "Secretarial", "Security", "Travel", "Undertaker" ], prompt: 'Choose an Industry' %>
-    </section>
-    <section id="recruiters">
-      <%= f.input :bio, label: 'Tell us about you', hint: 'Maximum 300 characters' %>
-    </section>
+    </ul></li>
+    <ul id="recruiters">
+      <li><%= f.input :bio, label: 'Tell us about you', hint: 'Maximum 300 characters' %></li>
+    </ul>
 
     <%= f.input :password %>
     <%= f.input :password_confirmation %>
