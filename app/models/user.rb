@@ -14,19 +14,16 @@ class User < ActiveRecord::Base
 
   validates_presence_of :username
 
-  validates :address1, :presence => true,
-            :length => { :maximum => 50 }
+  validates :address1, :length => { :maximum => 50 }
 
   validates :address2, :length => { :maximum => 50 }
 
   validates :usertype, :presence => true
 
 
-  validates :bio, :presence => true,
-  :length => { :maximum => 300 }
+  validates :bio, :length => { :maximum => 300 }
 
-  validates :city, :presence => true,
-            :length => { :maximum => 75 }
+  validates :city, :length => { :maximum => 75 }
 
   validates :firstname, :length => { :maximum => 25 }
 

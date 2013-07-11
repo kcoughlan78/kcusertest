@@ -8,6 +8,8 @@
     <%= f.input :usertype, label: 'Which best describes you', :input_html => {:name => "usertype"}, :collection => ["Jobhunter", "Freelancers & Small Businesses", "Hiring Business", "Recruitment Company"],
                 as: :radio_buttons %>
     <section id="jobHunter">
+      <%= f.input :firstname %>
+      <%= f.input :surname %>
       <%= f.input :dob, label: 'Date of Birth', as: :date, start_year: Date.today.year - 90,
                   end_year: Date.today.year - 16,
                   order: [:day, :month, :year] %>
@@ -61,7 +63,6 @@
                                            "Laois", "Leitrim", "Limerick", "Longford", "Louth", "Mayo", "Meath", "Monaghan", "Offaly", "Roscommon",
                                            "Sligo", "Tipperary", "Waterford", "Westmeath", "Wexford", "Wicklow"], prompt: 'Select your county' %>
     </section>
-
     <%= f.input :password %>
     <%= f.input :password_confirmation %>
 
