@@ -47,8 +47,17 @@
       <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="94" selection-start="1705" selection-end="1705" vertical-scroll-proportion="-15.0">
-              <folding />
+            <state line="31" column="99" selection-start="19" selection-end="1867" vertical-scroll-proportion="-18.333334">
+              <folding>
+                <marker date="1373535777000" expanded="true" signature="261:500" placeholder="&lt;%=...%&gt;" />
+                <marker date="1373535777000" expanded="true" signature="523:735" placeholder="..." />
+                <marker date="1373535777000" expanded="true" signature="534:725" placeholder="..." />
+                <marker date="1373535777000" expanded="true" signature="758:990" placeholder="..." />
+                <marker date="1373535777000" expanded="true" signature="769:980" placeholder="..." />
+                <marker date="1373535777000" expanded="true" signature="1012:1579" placeholder="..." />
+                <marker date="1373535777000" expanded="true" signature="1023:1574" placeholder="..." />
+                <marker date="1373535777000" expanded="true" signature="1609:1714" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,7 +83,7 @@
       <file leaf-file-name="form.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="97" selection-start="312" selection-end="312" vertical-scroll-proportion="0.20710059">
+            <state line="37" column="3" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.91715974">
               <folding>
                 <element signature="e#0#158#0" expanded="false" />
               </folding>
@@ -736,13 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="94" selection-start="1705" selection-end="1705" vertical-scroll-proportion="-15.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -757,9 +759,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="99" selection-start="19" selection-end="1867" vertical-scroll-proportion="-18.333334">
+          <folding>
+            <marker date="1373535777000" expanded="true" signature="261:500" placeholder="&lt;%=...%&gt;" />
+            <marker date="1373535777000" expanded="true" signature="523:735" placeholder="..." />
+            <marker date="1373535777000" expanded="true" signature="534:725" placeholder="..." />
+            <marker date="1373535777000" expanded="true" signature="758:990" placeholder="..." />
+            <marker date="1373535777000" expanded="true" signature="769:980" placeholder="..." />
+            <marker date="1373535777000" expanded="true" signature="1012:1579" placeholder="..." />
+            <marker date="1373535777000" expanded="true" signature="1023:1574" placeholder="..." />
+            <marker date="1373535777000" expanded="true" signature="1609:1714" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="97" selection-start="312" selection-end="312" vertical-scroll-proportion="0.20710059">
+        <state line="37" column="3" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.91715974">
           <folding>
             <element signature="e#0#158#0" expanded="false" />
           </folding>

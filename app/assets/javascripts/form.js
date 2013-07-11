@@ -8,7 +8,7 @@
 
 
 
-
+jQuery(function($){
 $("input[type=radio]").click(function(){
     if ($('input[name=usertype]:checked').val() == "Jobhunter") {
         $("#jobHunter").slideDown("fast");
@@ -35,7 +35,7 @@ $("input[type=radio]").click(function(){
         $("#smallBiz").slideUp("fast");
     }
 });
-
+});
 
 
 
