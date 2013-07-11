@@ -7,6 +7,8 @@
  */
 $(document).ready(function(){
 
+    $('input[name=usertype]').addClass("radiobutton");
+
 
 $(".radiobutton").click(function(){
     if ($('input[name=usertype]:checked').val() == "Jobhunter") {
