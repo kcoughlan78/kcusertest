@@ -10,7 +10,7 @@ class User < ActiveRecord::Base
                   :county, :firstname, :surname, :dob, :usertype, :launchedIn, :industry
   # attr_accessible :title, :body
 
-
+  USER_CATEGORIES = [ "Jobhunter", "Freelancers & Small Businesses", "Hiring Business", "Recruitment Company" ]
 
   validates_presence_of :username
 
@@ -18,7 +18,7 @@ class User < ActiveRecord::Base
 
   validates :address2, :length => { :maximum => 50 }
 
-  validates :usertype, :presence => true
+  validates :usertype, inclusion: USER_CATEGORIES
 
 
   validates :bio, :length => { :maximum => 300 }
