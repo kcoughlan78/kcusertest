@@ -7,16 +7,18 @@
     <%= f.input :username %>
     <%= f.input :usertype, label: 'Which best describes you', :input_html => {:name => "usertype"}, :collection => User::USER_CATEGORIES,
                 as: :radio_buttons, hint: 'To proceed please pick one of the above options' %>
-    <section class="jobHunter">
+    <section class="freeAcc">
       <%= f.input :firstname %>
-      <%= f.input :surname, hint: 'If small business enter owner, or whoever the main contact will be' %>
+    <%= f.input :surname, hint: 'If small business enter owner, or whoever the main contact will be' %>
+    </section>
+      <section class="jobHunter">
       <%= f.input :dob, label: 'Date of Birth', as: :date, start_year: Date.today.year - 90,
                   end_year: Date.today.year - 16,
                   order: [:day, :month, :year] %>
       </section>
       <section class="freeAcc">
       <%= f.input :bio, label: 'Tell us about you', hint: 'Maximum 300 characters', placeholder: 'Individuals give a brief description, small business a few lines about your
-      operations or details of team members' %>
+      operations or details of team members', :input_html => { :cols => 40, :rows => 5 } %>
       </section>
       <section class="commonFields">
       <%= f.input :address1 %>
@@ -30,14 +32,17 @@
                                            "Sligo", "Tipperary", "Waterford", "Westmeath", "Wexford", "Wicklow"], prompt: 'Select your county' %>
     </section>
     <section class="bizCommon">
+      <%= f.input :contactPerson, hint: '`Who the main contact will be, if we need to contact you business directly' %>
       <%= f.input :launchedIn, label: 'Year business launched', as: :date, start_year: Date.today.year - 300,
                   end_year: Date.today.year, discard_day: true, discard_month: true, order: [:year] %>
-    </section>
-    <section class="bizCommon">
       <%= f.input :industry, :collection => ["Academic", "Accounting", "Architecture", "Banking", "Beauty" "Childcare", "Education", "Finance", "Financial Services",
                                              "Healthcare", "Hotels", "Recruitment", "IT", "Legal", "Leisure", "Manufacturing", "Marketing", "Media", "Medical" "Motor", "Pharmaceutical",
                                              "Property", "Pubs", "Restaurants", "Retail-Fashion", "Retail-Grocery", "Secretarial", "Security", "Travel", "Undertaker" ], prompt: 'Choose an Industry' %>
     </section>
+    <section class="premium">
+      <%= f.input :companyDetails, label: 'Tell us about your business', hint: 'Maximum 500 characters', placeholder: 'Give a brief description of your company here',
+                  :input_html => { :cols => 55, :rows => 5} %>
+          </section>
     <%= f.input :password %>
     <%= f.input :password_confirmation %>
 

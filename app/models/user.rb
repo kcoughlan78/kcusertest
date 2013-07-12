@@ -7,7 +7,7 @@ class User < ActiveRecord::Base
 
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :password, :password_confirmation, :remember_me, :username, :bio, :address1, :address2, :city,
-                  :county, :firstname, :surname, :dob, :usertype, :launchedIn, :industry
+                  :county, :firstname, :surname, :dob, :usertype, :launchedIn, :industry, :companyDetails, :contactPerson, :phoneNo
   # attr_accessible :title, :body
 
   USER_CATEGORIES = [ "Jobhunter", "Freelancers & Small Businesses", "Hiring Business", "Recruitment Company" ]
@@ -20,11 +20,15 @@ class User < ActiveRecord::Base
 
   validates :bio, :length => { :maximum => 300 }
 
+  validates :companyDetails, :length => { :maximum => 500 }
+
   validates :city, :length => { :maximum => 75 }
 
   validates :firstname, :length => { :maximum => 25 }
 
   validates :surname, :length => { :maximum => 45 }
+
+  validates :contactPerson, :length => { :maximum => 70 }
 
 
 
