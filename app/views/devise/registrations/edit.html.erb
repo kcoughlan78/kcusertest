@@ -1,5 +1,7 @@
 <h2>Edit <%= resource_name.to_s.humanize %></h2>
 
+<%= current_user.usertype %>
+
 <%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put, :class => 'form-horizontal' }) do |f| %>
 
     <%= f.input :email %>
