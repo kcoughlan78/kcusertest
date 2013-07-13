@@ -10,7 +10,6 @@ class User < ActiveRecord::Base
                   :county, :firstname, :surname, :dob, :usertype, :launchedIn, :industry, :companyDetails, :contactPerson, :phoneNo
   # attr_accessible :title, :body
 
-  USER_CATEGORIES = [ "Jobhunter", "Freelancers & Small Businesses", "Hiring Business", "Recruitment Company" ]
 
   validates_presence_of :username
 
