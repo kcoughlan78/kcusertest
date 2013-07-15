@@ -26,7 +26,7 @@
                                          "Dublin 21", "Dublin 22", "Dublin 23", "Dublin 24", "Co. Dublin", "Galway", "Kerry", "Kildare", "Kilkenny",
                                          "Laois", "Leitrim", "Limerick", "Longford", "Louth", "Mayo", "Meath", "Monaghan", "Offaly", "Roscommon",
                                          "Sligo", "Tipperary", "Waterford", "Westmeath", "Wexford", "Wicklow"], prompt: 'Select your county' %>
-    <% if current_user.usertype != "Jobhunter" %>
+    <% if current_user.usertype != "jobHunter" %>
     <%= f.input :launchedIn, label: 'Year business launched', as: :date, start_year: Date.today.year - 300,
                 end_year: Date.today.year, discard_day: true, discard_month: true, order: [:year] %>
     <%= f.input :industry, :collection => ["Academic", "Accounting", "Architecture", "Banking", "Beauty" "Childcare", "Education", "Finance", "Financial Services",
