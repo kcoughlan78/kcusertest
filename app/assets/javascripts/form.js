@@ -9,8 +9,8 @@
 
 
 jQuery(function($){
-$("input[type=radio]").click(function(){
-    if ($('input[name=usertype]:checked').val() == "Jobhunter") {
+$("select[id=user_usertype]").click(function(){
+    if ($('option').val() == "Jobhunter") {
         $(".jobHunter").slideDown("fast");
         $(".commonFields").slideDown("fast");
         $(".freeAcc").slideDown("fast");
