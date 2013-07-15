@@ -16,6 +16,11 @@
 <% if @user.usertype == "jobHunter || smallCo" %>
 <p>Bio: <%= @user.bio %></p>
 <% end %>
+<% if @user.usertype != "jobHunter" %>
+<p>Business Name: <%= @user.businessName %></p>
+<p>Founded: <%= @user.launchedIn %></p>
+<p>Industry Sector: <%= @user.industry %></p>
+<% end %>
 <br>
 <p>Address Line 1: <%= @user.address1 %></p>
 <p>Address Line 2: <%= @user.address2 %></p>
