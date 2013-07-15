@@ -5,7 +5,7 @@
 
     <%= f.input :email, placeholder: 'example@domain.com' %>
     <%= f.input :username %>
-    <%= f.input :usertype, label: 'Which best describes you', :collection => [[@user.usertype='jobHunter', "Jobhunter"], [@user.usertype='smallCo', "Freelancers or Small Company"], [@user.usertype='largeCo',"Hiring Business"], [@user.usertype='recruiter', "Recruitment_Company" ]], prompt: 'Please pick one' %>
+    <%= f.input :usertype, label: 'Which best describes you', :collection => [["Jobhunter", @user.usertype='jobHunter'], [@user.usertype='smallCo', "Freelancers or Small Company"], [@user.usertype='largeCo',"Hiring Business"], [@user.usertype='recruiter', "Recruitment_Company" ]], prompt: 'Please pick one' %>
     <section class="reg Jobhunter ">
       <%= f.input :firstname %>
     <%= f.input :surname, hint: 'If small business enter owner, or whoever the main contact will be' %>
