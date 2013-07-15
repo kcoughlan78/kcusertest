@@ -1,7 +1,7 @@
 <% if @user.usertype == "jobHunter" %>
-<h1><%= @user.firstname %> <%= @user.surname %>'s Profile</h1>
+<h3><%= @user.firstname %> <%= @user.surname %>'s Profile</h3>
     <% else %>
-<h1>Welcome to the profile page of <%= @user.businessName %></h1>
+<h3>Welcome to the profile page of <%= @user.businessName %></h3>
 <% end %>
 <br>
 <% if @user.usertype == "jobHunter" %>
