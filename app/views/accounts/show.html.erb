@@ -1,6 +1,6 @@
-<h1>User Profile</h1>
+<h1><%= @user.firstname %> <%= @user.surname %>'s Profile</h1>
 <br>
-<% if @user.usertype = "jobHunter" %>
+<% if @user.usertype == "jobHunter" %>
 <p>Name: <%= @user.firstname %> <%= @user.surname %></p>
 <p>Date of Birth: <%= @user.dob %></p>
 <% end %>
@@ -9,7 +9,7 @@
 <br>
 <p>Email: <%= @user.email %></p>
 <br>
-<% if @user.usertype = "jobHunter || smallCo" %>
+<% if @user.usertype == "jobHunter || smallCo" %>
 <p>Bio: <%= @user.bio %></p>
 <% end %>
 <br>
