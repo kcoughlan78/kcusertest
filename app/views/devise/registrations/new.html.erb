@@ -10,6 +10,9 @@
       <%= f.input :firstname %>
     <%= f.input :surname, hint: 'If small business enter owner, or whoever the main contact will be' %>
     </section>
+    <section class="reg smallCo largeCo recruiter">
+      <%= f.input :contactPerson, hint: '`Who the main contact will be, if we need to contact you business directly' %>
+    </section>
       <section class="reg jobHunter">
       <%= f.input :dob, label: 'Date of Birth', as: :date, start_year: Date.today.year - 90,
                   end_year: Date.today.year - 16,
@@ -31,7 +34,6 @@
                                            "Sligo", "Tipperary", "Waterford", "Westmeath", "Wexford", "Wicklow"], prompt: 'Select your county' %>
     </section>
     <section class="reg smallCo largeCo recruiter">
-      <%= f.input :contactPerson, hint: '`Who the main contact will be, if we need to contact you business directly' %>
       <%= f.input :launchedIn, label: 'Year business launched', as: :date, start_year: Date.today.year - 300,
                   end_year: Date.today.year, discard_day: true, discard_month: true, order: [:year] %>
       <%= f.input :industry, :collection => ["Academic", "Accounting", "Architecture", "Banking", "Beauty" "Childcare", "Education", "Finance", "Financial Services",

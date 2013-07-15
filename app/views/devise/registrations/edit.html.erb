@@ -18,6 +18,9 @@
                 end_year: Date.today.year - 16,
                 order: [:day, :month, :year] %>
     <% end %>
+    <% if current_user.usertype == "smallCo || largeCo || recruiter" %>
+    <%= f.input :contactPerson, hint: 'Who the main contact will be, if we need to contact you business directly' %>
+    <% end %>
     <% if current_user.usertype == "jobHunter || smallCo" %>
     <%= f.input :bio, label: 'Tell us about you', hint: 'Maximum 300 characters' %>
     <% end %>
