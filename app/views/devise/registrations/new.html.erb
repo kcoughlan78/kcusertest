@@ -19,8 +19,7 @@
                   order: [:day, :month, :year] %>
       </section>
       <section class="reg jobHunter smallCo">
-      <%= f.input :bio, label: 'Tell us about you', hint: 'Maximum 300 characters', placeholder: 'Individuals give a brief description, small business a few lines about your
-      operations or details of team members', :input_html => { :cols => 40, :rows => 5 } %>
+      <%= f.input :bio, label: 'Tell us about you', hint: 'Maximum 300 characters', placeholder: 'Short succinct message summarising your profile, details can be added further down', :input_html => { :cols => 40, :rows => 5 } %>
       </section>
       <section class="reg jobHunter smallCo largeCo recruiter">
       <%= f.input :address1 %>
@@ -32,6 +31,7 @@
                                            "Dublin 21", "Dublin 22", "Dublin 23", "Dublin 24", "Co. Dublin", "Galway", "Kerry", "Kildare", "Kilkenny",
                                            "Laois", "Leitrim", "Limerick", "Longford", "Louth", "Mayo", "Meath", "Monaghan", "Offaly", "Roscommon",
                                            "Sligo", "Tipperary", "Waterford", "Westmeath", "Wexford", "Wicklow"], prompt: 'Select your county' %>
+      <%= f.input :phoneNo, hint: 'Please include international and area codes' %>
     </section>
     <section class="reg smallCo largeCo recruiter">
       <%= f.input :launchedIn, label: 'Year business launched', as: :date, start_year: Date.today.year - 300,
@@ -41,7 +41,7 @@
                                              "Property", "Pubs", "Restaurants", "Retail-Fashion", "Retail-Grocery", "Secretarial", "Security", "Travel", "Undertaker" ], prompt: 'Choose an Industry' %>
     </section>
     <section class="reg largeCo recruiter">
-      <%= f.input :companyDetails, label: 'Tell us about your business', hint: 'Maximum 500 characters', placeholder: 'Give a brief description of your company here',
+      <%= f.input :companyDetails, label: 'Tell us about your business', hint: 'Maximum 600 characters', placeholder: 'Give a brief description of your company here',
                   :input_html => { :cols => 55, :rows => 5} %>
           </section>
     <%= f.input :password %>
