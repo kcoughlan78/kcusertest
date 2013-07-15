@@ -135,7 +135,7 @@
       <file leaf-file-name="edit.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="543" selection-end="543" vertical-scroll-proportion="0.10638298">
+            <state line="20" column="49" selection-start="838" selection-end="838" vertical-scroll-proportion="0.26595744">
               <folding />
             </state>
           </provider>
@@ -788,13 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="41" selection-start="3380" selection-end="3380" vertical-scroll-proportion="-25.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/form.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="41" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
@@ -806,9 +799,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="41" selection-start="3380" selection-end="3380" vertical-scroll-proportion="-25.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="543" selection-end="543" vertical-scroll-proportion="0.10638298">
+        <state line="20" column="49" selection-start="838" selection-end="838" vertical-scroll-proportion="0.26595744">
           <folding />
         </state>
       </provider>
