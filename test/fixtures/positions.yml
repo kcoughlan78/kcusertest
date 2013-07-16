@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  employer: MyString
+  title: MyString
+  startDate: 2013-07-16
+  endDate: 2013-07-16
+  role: MyText
+  skills: MyText
+  achievements: MyText
+
+two:
+  employer: MyString
+  title: MyString
+  startDate: 2013-07-16
+  endDate: 2013-07-16
+  role: MyText
+  skills: MyText
+  achievements: MyText

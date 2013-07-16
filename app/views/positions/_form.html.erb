@@ -1,0 +1,9 @@
+<%= simple_form_for([@user, @user.positions.build]) do |f| %>
+<%= f.input :employer %>
+<%= f.input :title %>
+<%= f.input :startDate %>
+<%= f.input :endDate %>
+<%= f.input :role %>
+<%= f.input :skills %>
+<%= f.input :achievements %>
+<% end %>

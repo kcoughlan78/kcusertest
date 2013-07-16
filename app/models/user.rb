@@ -11,6 +11,8 @@ class User < ActiveRecord::Base
                   :businessName
   # attr_accessible :title, :body
 
+  has_many :positions
+
 
   validates_presence_of :username
 
