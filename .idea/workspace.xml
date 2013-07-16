@@ -16,7 +16,7 @@
     <file path="/devise.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372291057773" ignored="false" />
     <file path="/user.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1373968795988" ignored="false" />
     <file path="/omniauth_callbacks_controller.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372317761478" ignored="false" />
-    <file path="/edit.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1373974259532" ignored="false" />
+    <file path="/edit.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1373996017351" ignored="false" />
     <file path="/users_controller.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372355299716" ignored="false" />
     <file path="/show.html.erb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1373971502395" ignored="false" />
     <file path="/accounts_controller.rb" changelist="ec411f8f-9773-42e6-af50-2905b5904a95" time="1372588221138" ignored="false" />
@@ -76,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/positions/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="36" selection-start="87" selection-end="231" vertical-scroll-proportion="-4.375">
+            <state line="9" column="9" selection-start="308" selection-end="310" vertical-scroll-proportion="0.2795031">
               <folding />
             </state>
           </provider>
@@ -130,10 +130,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="44" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.3617021">
+            <state line="62" column="43" selection-start="3806" selection-end="3806" vertical-scroll-proportion="-17.083334">
               <folding />
             </state>
           </provider>
@@ -886,16 +886,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/positions/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="36" selection-start="87" selection-end="231" vertical-scroll-proportion="-4.375">
+        <state line="62" column="43" selection-start="3806" selection-end="3806" vertical-scroll-proportion="-17.083334">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/positions/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="44" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.3617021">
+        <state line="9" column="9" selection-start="308" selection-end="310" vertical-scroll-proportion="0.2795031">
           <folding />
         </state>
       </provider>
