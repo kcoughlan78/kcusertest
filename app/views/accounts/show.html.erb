@@ -26,7 +26,3 @@
 <p>Address Line 2: <%= @user.address2 %></p>
 <p>Town or City: <%= @user.city %></p>
 <p>County: <%= @user.county %></p>
-<% if current_user == @user && current_user.usertype == "jobHunter" %>
-<h4>Add experience</h4>
-<%= render 'positions/form'%>
-<% end %>

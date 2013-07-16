@@ -17,6 +17,15 @@
     <%= f.input :dob, label: 'Date of Birth', as: :date, start_year: Date.today.year - 90,
                 end_year: Date.today.year - 16,
                 order: [:day, :month, :year] %>
+        <%= f.simple_fields_for :positions do |p| %>
+            <%= p.input :employer %>
+            <%= p.input :title %>
+            <%= p.input :startDate %>
+            <%= p.input :endDate %>
+            <%= p.input :role %>
+            <%= p.input :skills %>
+            <%= p.input :achievements %>
+        <% end %>
     <% end %>
     <% if current_user.usertype != "jobHunter" %>
     <%= f.input :contactPerson, hint: 'Who the main contact will be, if we need to contact you business directly' %>
