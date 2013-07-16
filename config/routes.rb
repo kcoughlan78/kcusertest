@@ -1,11 +1,15 @@
 Usertest::Application.routes.draw do
 
+  get "users/edit"
+
   devise_for :users, :path => 'profile', path_names: {sign_in: "login", sign_out: "logout", sign_up: "Register"},
              controllers: {omniauth_callbacks: "omniauth_callbacks"}
 
   resources :accounts
 
-
+  resources :users do
+    resources :positions
+  end
 
   get "home/index"
 
